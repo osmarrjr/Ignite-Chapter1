@@ -1,5 +1,12 @@
+import { Counter } from './components/Counter';
+import { RepositoryList } from './components/RepositoryList';
 import './global.scss';
 
 export function App() {
-    return <h1>Configurando WebPack e WebServer</h1>
+    return (
+        <>
+            <RepositoryList />
+            <Counter/>
+        </>
+    )
 }
